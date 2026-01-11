@@ -56,6 +56,25 @@ You can use tools like **7-Zip** or **WinRAR**:
 
 ---
 
+## 🔗 Related Datasets
+
+This work builds upon and complements other standard multimodal emotion datasets used in our research:
+
+* **DEAP:** A dataset for emotion analysis using physiological signals (EEG and peripheral) triggered by music videos.
+* **AMIGOS:** A dataset for mood, personality, and affect research on individuals and groups.
+
+## 📖 Related Publications
+
+The following publications are related to the methodologies, algorithms (ReMECS, Fed-ReMECS), and data collection strategies used in this work:
+
+* Arijit Nandi, Fatos Xhafa, Rohit Kumar. **A Docker-based federated learning framework design and deployment for multi-modal data stream classification.** *Computing* 105(10): 2195-2229 (2023).
+* Arijit Nandi, Fatos Xhafa, Laia Subirats, Santi Fort. **Reward-Penalty Weighted Ensemble for Emotion State Classification from Multi-Modal Data Streams.** *Int. J. Neural Syst.* 32(12): 2250049:1-2250049:22 (2022).
+* Arijit Nandi, Fatos Xhafa, Laia Subirats, Santi Fort. **Federated Learning with Exponentially Weighted Moving Average for Real-Time Emotion Classification.** *ISAmI* 2022: 123-133.
+* Arijit Nandi, Fatos Xhafa, Laia Subirats, Santi Fort. **MDEAW: A Multimodal Dataset for Emotion Analysis through EDA and PPG signals from wireless wearable low-cost off-the-shelf Devices.** *CoRR abs/2207.06410* (2022).
+* Arijit Nandi, Fatos Xhafa, Laia Subirats, Santi Fort. **Real-Time Emotion Classification Using EEG Data Stream in E-Learning Contexts.** *Sensors* 21(5): 1589 (2021).
+* Arijit Nandi, Fatos Xhafa, Laia Subirats, Santi Fort. **Real-Time Multimodal Emotion Classification System in E-Learning Context.** *EANN* 2021: 423-435.
+* Arijit Nandi, Fatos Xhafa, Laia Subirats, Santi Fort. **A Survey on Multimodal Data Stream Mining for e-Learner's Emotion Recognition.** *COINS* 2020: 1-6.
+
 ## 📚 Citation
 
 If you use this dataset in your research, please cite the associated dataset record via Zenodo:
