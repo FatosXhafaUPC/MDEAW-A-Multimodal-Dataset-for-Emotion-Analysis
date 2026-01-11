@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18215032.svg)](https://doi.org/10.5281/zenodo.18215032)
+
 # MDEAW: A Multimodal Dataset for Emotion Analysis in a Classroom Scenario
 
 This repository contains the **MDEAW dataset**, a multimodal database consisting of Electrodermal Activity (EDA) and Photoplethysmography (PPG) signals recorded during real-world exam scenarios. It also includes the pre-print version of the associated research paper.
@@ -56,9 +58,17 @@ You can use tools like **7-Zip** or **WinRAR**:
 
 ## 📚 Citation
 
-If you use this dataset in your research, please cite the paper associated with this repository.
+If you use this dataset in your research, please cite the associated dataset record via Zenodo:
 
-*(Please update this section with the full BibTeX citation when available)*.
+    @dataset{mdeaw_dataset_2026,
+      author       = {Xhafa, Fatos},
+      title        = {MDEAW: A Multimodal Dataset for Emotion Analysis in a Classroom Scenario},
+      year         = {2026},
+      publisher    = {Zenodo},
+      version      = {v1.0.0},
+      doi          = {10.5281/zenodo.18215032},
+      url          = {https://doi.org/10.5281/zenodo.18215032}
+    }
 
 ## 📧 Contact
 
@@ -69,5 +79,6 @@ For any questions regarding the dataset usage, collaboration, or the code, pleas
 * **Email:** fatos.xhafa [at] upc.edu
 * **Web:** https://www.cs.upc.edu/~fatos/
 
+---
 ---
 *If you encounter any technical issues with the repository, please open an Issue here on GitHub.*
