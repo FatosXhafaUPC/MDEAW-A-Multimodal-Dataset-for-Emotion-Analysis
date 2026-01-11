@@ -44,3 +44,15 @@ Clone the repository or download the `dataset.tar.xz` file directly.
 Navigate to the folder and run:
 ```bash
 tar -xf dataset_filename.tar.xz
+
+## 📧 Contact
+
+For any questions regarding the dataset usage, collaboration, or the code, please feel free to contact the authors:
+
+**Prof. Fatos Xhafa**
+* **Affiliation:** Universitat Politècnica de Catalunya (UPC)
+* **Email:** fatos.xhafa [at] upc.edu
+* **Web:** https://www.cs.upc.edu/~fatos/
+
+---
+*If you encounter any technical issues with the repository, please open an Issue here on GitHub.*
