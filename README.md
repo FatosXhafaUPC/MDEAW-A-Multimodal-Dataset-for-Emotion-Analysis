@@ -37,13 +37,28 @@ Once decompressed, the dataset follows this structure:
 Due to the size of the dataset, the files are compressed using the **.tar.xz** format to ensure high compression and integrity.
 
 ### 1. Download
-Clone the repository or download the `dataset.tar.xz` file directly.
+Clone the repository or download the `MDEAW_Dataset.tar.xz` file directly.
 
 ### 2. Decompress
 **For macOS / Linux (Terminal):**
 Navigate to the folder and run:
-```bash
-tar -xf dataset_filename.tar.xz
+
+    tar -xf MDEAW_Dataset.tar.xz
+
+*(Note: If your file has a different name, replace `MDEAW_Dataset.tar.xz` with your actual filename)*.
+
+**For Windows:**
+You can use tools like **7-Zip** or **WinRAR**:
+1. Right-click the `.tar.xz` file.
+2. Select "Extract here".
+
+---
+
+## 📚 Citation
+
+If you use this dataset in your research, please cite the paper associated with this repository.
+
+*(Please update this section with the full BibTeX citation when available)*.
 
 ## 📧 Contact
 
