@@ -1,0 +1,46 @@
+# MDEAW: A Multimodal Dataset for Emotion Analysis in a Classroom Scenario
+
+This repository contains the **MDEAW dataset**, a multimodal database consisting of Electrodermal Activity (EDA) and Photoplethysmography (PPG) signals recorded during real-world exam scenarios. It also includes the pre-print version of the associated research paper.
+
+## 📄 Overview
+
+We present **MDEAW**, a dataset designed to elicit and analyze emotional reactions in students within a classroom environment. The data was recorded during exams at Eurecat Academy (Sabadell, Barcelona).
+
+**Key Features:**
+* **Subjects:** 10 students.
+* **Signals:** EDA and PPG (captured using portable, wearable, wireless, low-cost, off-the-shelf equipment).
+* **Context:** Real-world exam scenarios.
+* **Labels:** Self-assessment of affective states (6 basic emotions) recorded after each stimulus.
+* **Baselines:** The dataset establishes baselines using ReMECS, Fed-ReMECS, and Fed-ReMECS-U algorithms.
+
+The goal of this dataset is to allow researchers to evaluate the suitability of low-cost capturing devices for emotion state recognition in everyday applications.
+
+## 📂 Repository Structure
+
+The dataset and documentation are organized as follows:
+
+* **`MDEAW_Dataset.tar.xz`**: The main compressed dataset.
+* **`Preprint_Article.pdf`**: The full text of the research paper.
+* **Code**: Scripts used for feature extraction and baseline models.
+
+### Dataset Contents (inside the compressed file)
+Once decompressed, the dataset follows this structure:
+
+| Folder/File | Description |
+| :--- | :--- |
+| `raw-data/` | Contains the raw EDA and PPG signal recordings from the wearable devices. |
+| `extracted-features/` | Processed data with features extracted for machine learning tasks. |
+| `emotion-labels-info.xlsx` | Ground truth file containing student self-assessments and emotion labels. |
+
+## 🚀 How to Download and Use the Data
+
+Due to the size of the dataset, the files are compressed using the **.tar.xz** format to ensure high compression and integrity.
+
+### 1. Download
+Clone the repository or download the `dataset.tar.xz` file directly.
+
+### 2. Decompress
+**For macOS / Linux (Terminal):**
+Navigate to the folder and run:
+```bash
+tar -xf dataset_filename.tar.xz
